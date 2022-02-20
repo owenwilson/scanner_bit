@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  dbtest:
+    image: postgres:13-alpine
+    #restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: example
+      POSTGRES_PASSWORD: example
+      POSTGRES_DB: bit_database
+    networks:
+      - bit-database
+
+networks:
+  bit-database:
