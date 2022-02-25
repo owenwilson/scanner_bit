@@ -1,3 +1,9 @@
 Sublist3r
+crud.py
+check.py
 *.txt
 results
+.env.example
+files
+list-subdomains
+list-subdomains-finish
