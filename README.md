@@ -18,6 +18,8 @@
 
 #### Note: please install Sublist3r or use repository [Sublist3r](https://github.com/aboul3la/Sublist3r.git)
 
+- psycopg2
+- nslookup
 - sed linux command
 - sort linux command
 
